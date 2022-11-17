@@ -1,14 +1,17 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>所有文章 - 我的全新 Hugo 网站</title>
+        <title>All Posts - Welcome to my blogs</title>
         <link>http://example.org/posts/</link>
-        <description>所有文章 | 我的全新 Hugo 网站</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 17 Nov 2022 10:41:49 &#43;0800</lastBuildDate><atom:link href="http://example.org/posts/" rel="self" type="application/rss+xml" /><item>
+        <description>All Posts | Welcome to my blogs</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>1603716612@qq.com (air-tea)</managingEditor>
+            <webMaster>1603716612@qq.com (air-tea)</webMaster><lastBuildDate>Thu, 17 Nov 2022 10:41:49 &#43;0800</lastBuildDate><atom:link href="http://example.org/posts/" rel="self" type="application/rss+xml" /><item>
     <title>First_post</title>
     <link>http://example.org/posts/first_post/</link>
     <pubDate>Thu, 17 Nov 2022 10:41:49 &#43;0800</pubDate><author>
-        <name>作者</name>
+        <name>air-tea</name>
     </author><guid>http://example.org/posts/first_post/</guid>
-    <description><![CDATA[This is the first post test]]></description>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/2022-11-17-16-56-34-image.png" referrerpolicy="no-referrer">
+            </div>This is the first post test ]]></description>
 </item></channel>
 </rss>
