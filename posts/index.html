@@ -8,22 +8,24 @@
     <title class="pjax-title">All Posts - Welcome to my blogs</title><meta name="Description" content=""><meta property="og:title" content="Posts" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="http://example.org/posts/" />
+<meta property="og:url" content="http://example.org/posts/" /><meta property="og:image" content="http://example.org/images/avatar.png"/>
 
-<meta name="twitter:card" content="summary"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="http://example.org/images/avatar.png"/>
+
 <meta name="twitter:title" content="Posts"/>
 <meta name="twitter:description" content=""/>
-<meta name="application-name" content="Welcome to my blogs">
-<meta name="apple-mobile-web-app-title" content="Welcome to my blogs">
+<meta name="application-name" content="DoIt">
+<meta name="apple-mobile-web-app-title" content="DoIt">
 
-<meta name="theme-color" content="#f8f8f8"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+<meta name="theme-color" content="#f8f8f8"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="canonical" href="http://example.org/posts/" /><link rel="alternate" href="/posts/index.xml" type="application/rss+xml" title="Welcome to my blogs">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="canonical" href="http://example.org/posts/" /><link rel="alternate" href="/posts/index.xml" type="application/rss+xml" title="Welcome to my blogs">
     <link rel="feed" href="/posts/index.xml" type="application/rss+xml" title="Welcome to my blogs"><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/fontawesome-free/all.min.css">
         <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/animate/animate.min.css">
         <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript></head>
 
-<body header-desktop="" header-mobile=""><script type="text/javascript">
+<body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">
         function setTheme(theme) {document.body.setAttribute('theme', theme); document.documentElement.style.setProperty('color-scheme', theme === 'light' ? 'light' : 'dark');}
         function saveTheme(theme) {window.localStorage && localStorage.setItem('theme', theme);}
         function getMeta(metaName) {const metas = document.getElementsByTagName('meta'); for (let i = 0; i < metas.length; i++) if (metas[i].getAttribute('name') === metaName) return metas[i]; return '';}
@@ -35,10 +37,10 @@
     <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
     <div class="header-wrapper">
         <div class="header-title">
-            <a href="/" title="Welcome to my blogs">Welcome to my blogs</a>
+            <a href="/" title="Welcome to my blogs"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i></span>DoIt</a>
         </div>
         <div class="menu">
-            <div class="menu-inner"><a class="menu-item active" href="/posts/"> blogs </a><a class="menu-item" href="/tags/"> tags </a><a class="menu-item" href="/categories/"> categories </a><a class="menu-item" href="/about/"> about </a><span class="menu-item delimiter"></span><a href="#" onclick="return false;" class="menu-item theme-switch" title="Switch Theme">
+            <div class="menu-inner"><a class="menu-item active" href="/posts/"> blogs </a><a class="menu-item" href="/tags/"> tags </a><a class="menu-item" href="/about/"> about </a><span class="menu-item delimiter"></span><a href="#" onclick="return false;" class="menu-item theme-switch" title="Switch Theme">
                     <i class="fas fa-adjust fa-fw"></i>
                 </a></div>
         </div>
@@ -47,13 +49,13 @@
     <div class="header-container">
         <div class="header-wrapper">
             <div class="header-title">
-                <a href="/" title="Welcome to my blogs">Welcome to my blogs</a>
+                <a href="/" title="Welcome to my blogs"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i></span>DoIt</a>
             </div>
             <div class="menu-toggle" id="menu-toggle-mobile">
                 <span></span><span></span><span></span>
             </div>
         </div>
-        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="">blogs</a><a class="menu-item" href="/tags/" title="">tags</a><a class="menu-item" href="/categories/" title="">categories</a><a class="menu-item" href="/about/" title="">about</a><a href="#" onclick="return false;" class="menu-item theme-switch" title="Switch Theme">
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="">blogs</a><a class="menu-item" href="/tags/" title="">tags</a><a class="menu-item" href="/about/" title="">about</a><a href="#" onclick="return false;" class="menu-item theme-switch" title="Switch Theme">
                 <i class="fas fa-adjust fa-fw"></i>
             </a></div>
     </div>
