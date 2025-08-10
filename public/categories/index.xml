@@ -1,0 +1,14 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Categories - Category - Welcome to my blogs</title>
+        <link>http://localhost:1313/categories/</link>
+        <description>Categories - Category - Welcome to my blogs</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 17 Nov 2022 10:41:49 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/categories/" rel="self" type="application/rss+xml" /><item>
+    <title>Documentation</title>
+    <link>http://localhost:1313/categories/documentation/</link>
+    <pubDate>Thu, 17 Nov 2022 10:41:49 &#43;0800</pubDate><author>
+        <name>Author</name>
+    </author><guid>http://localhost:1313/categories/documentation/</guid>
+    <description><![CDATA[]]></description>
+</item></channel>
+</rss>
