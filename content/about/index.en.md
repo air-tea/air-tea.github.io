@@ -11,4 +11,6 @@ math:
   enable: true
 ---
 
-This is air-tea's web page
+I am a 3st-year PhD candidate at The Chinese University of Hongkong, Shenzhen, where I’m working with Prof. Fangxin Wang at the Intelligent Network and Multimedia Laboratory (INML). Prior to joining CUHK(SZ), I completed my Bachelor degree in Communication Engineering at Southern University of Science and Technology, where I was supervised by Prof. Rui Wang. 
+
+My research interests lie in LLM reasoning and LLM agent as well as applications of LLM in distributed system. 
