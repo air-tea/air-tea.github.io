@@ -2,7 +2,7 @@
 title: "关于 air-tea"
 date: 2019-08-02T11:04:49+08:00
 draft: false
-description: "关于 air-tea"
+description: "About Panlong Wu"
 images: []
 
 lightgallery: true
