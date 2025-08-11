@@ -15,13 +15,18 @@ theme = "DoIt"
   # DoIt 主题版本
   version = "0.2.X"
   images = ["/images/avatar.png"]
-  [params.home.profile]
-    # Gravatar 邮箱, 用于优先在主页显示的头像
-    gravatarEmail = ""
-    # 主页显示头像的 URL
-    avatarURL = "/images/avatar.png"
-    subtitle = "A Clean, Elegant but Advanced Hugo Theme"
-    social = true
+  [params.home]
+    # 主页信息设置
+    [params.home.profile]
+      # Gravatar 邮箱, 用于优先在主页显示的头像
+      gravatarEmail = ""
+      # 主页显示头像的 URL
+      avatarURL = "/images/avatar.png"
+      subtitle = "Welcome to my page"
+      social = true
+    [params.home.posts]
+      # 是否在主页显示文章摘要
+      enable = false
   [params.app]
     # optional site title override for the app when added to an iOS home screen or Android launcher
     # 当添加到 iOS 主屏幕或者 Android 启动器时的标题, 覆盖默认标题
@@ -119,14 +124,6 @@ theme = "DoIt"
     # 当你将鼠标悬停在此菜单链接上时, 将显示的标题
     title = ""
     weight = 1
-  [[menu.main]]
-    identifier = "tags"
-    pre = ""
-    post = ""
-    name = "tags"
-    url = "/tags/"
-    title = ""
-    weight = 2
 #  [[menu.main]]
 #    identifier = "categories"
 #    pre = ""
