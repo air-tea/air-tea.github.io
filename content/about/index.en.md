@@ -11,7 +11,7 @@ math:
   enable: true
 ---
 
-I am a 4rd-year PhD candidate at The Chinese University of Hong Kong, Shenzhen, where I'm working with Prof. [Fangxin Wang](https://mypage.cuhk.edu.cn/academics/wangfangxin/index.html) at the Intelligent Network and Multimedia Laboratory (INML). Prior to joining CUHK(SZ), I completed my Bachelor degree in Communication Engineering at Southern University of Science and Technology, where I was supervised by Prof. [Rui Wang](https://scholar.google.com/citations?hl=en&user=AyWKyZ4AAAAJ&view_op=list_works&sortby=pubdate). 
+I am a 4rd-year PhD candidate at The Chinese University of Hong Kong, Shenzhen, where I'm supervised by Prof. [Fangxin Wang](https://mypage.cuhk.edu.cn/academics/wangfangxin/index.html) at the Intelligent Network and Multimedia Laboratory (INML). Prior to joining CUHK(SZ), I completed my Bachelor degree in Communication Engineering at Southern University of Science and Technology, where I was supervised by Prof. [Rui Wang](https://scholar.google.com/citations?hl=en&user=AyWKyZ4AAAAJ&view_op=list_works&sortby=pubdate). 
 
 My research interests lie in LLM reasoning and LLM agent as well as applications of LLM in distributed system. I’m always open to collaboration—feel free to reach me at panlongwu@link.cuhk.edu.cn
 
