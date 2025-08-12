@@ -1,0 +1,17 @@
+/* 自定义样式 */
+
+/* 主页 subtitle 中的链接样式 */
+.home-subtitle a {
+    color: #007acc; /* 蓝色 */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.home-subtitle a:hover {
+    color: #0056b3; /* 深蓝色，悬停时 */
+    text-decoration: underline;
+}
+
+.home-subtitle a:visited {
+    color: #007acc; /* 访问过的链接仍然保持蓝色 */
+}

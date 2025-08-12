@@ -6,7 +6,7 @@ languageCode = "en"
 # 是否包括中日韩文字
 hasCJKLanguage = true
 # 网站标题
-title = "Welcome to my blogs"
+title = "Panlong Wu"
 
 # 更改使用 Hugo 构建网站时使用的默认主题
 theme = "DoIt"
@@ -22,7 +22,7 @@ theme = "DoIt"
       gravatarEmail = ""
       # 主页显示头像的 URL
       avatarURL = "/images/avatar.png"
-      subtitle = "Welcome to my page"
+      subtitle = "Welcome to my page~<br>If you want to know more about me, please refer to <a href='/about/' style='color: #007acc; text-decoration: none;'>about</a>"
       social = true
     [params.home.posts]
       # 是否在主页显示文章摘要
@@ -48,21 +48,7 @@ theme = "DoIt"
     tileColor = "#da532c"
   
   [params.social]
-    GitHub = "xxxx"
-    Linkedin = ""
-    Twitter = "xxxx"
-    Instagram = "xxxx"
-    Facebook = "xxxx"
-    Telegram = "xxxx"
-    [params.social.Mastodon]
-      # 排列图标时的权重 (权重越大, 图标的位置越靠后)
-      weight = 0
-      # 你的社交 ID
-      id = "@xxxx"
-      # 你的社交链接的前缀
-      prefix = "https://mastodon.social/"
-      # 当鼠标停留在图标上时的提示内容
-      title = "Mastodon"
+
   [params.page]
 	[params.page.seo]
       # image URL
@@ -73,6 +59,11 @@ theme = "DoIt"
       [params.page.seo.publisher]
         name = "xxxx"
         logoUrl = "/images/avatar.png"
+    # 第三方库配置
+    [params.page.library]
+      [params.page.library.css]
+        # 自定义 CSS 文件
+        customCSS = "css/custom.scss"
   [params.seo]
     # image URL
     # 图片 URL
@@ -160,3 +151,7 @@ theme = "DoIt"
   [markup.highlight]
     # false 是必要的设置 (https://github.com/dillonzq/LoveIt/issues/158)
     noClasses = false
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      # 允许在 markdown 中使用 HTML 标签
+      unsafe = true

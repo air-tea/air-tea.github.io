@@ -1,21 +1,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Tags - Tag - Welcome to my blogs</title>
+        <title>Tags - Tag - Panlong Wu</title>
         <link>http://localhost:1313/tags/</link>
-        <description>Tags - Tag - Welcome to my blogs</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 17 Nov 2022 10:41:49 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/tags/" rel="self" type="application/rss+xml" /><item>
-    <title>Configuration</title>
-    <link>http://localhost:1313/tags/configuration/</link>
-    <pubDate>Thu, 17 Nov 2022 10:41:49 &#43;0800</pubDate><author>
-        <name>Author</name>
-    </author><guid>http://localhost:1313/tags/configuration/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Installation</title>
-    <link>http://localhost:1313/tags/installation/</link>
-    <pubDate>Thu, 17 Nov 2022 10:41:49 &#43;0800</pubDate><author>
-        <name>Author</name>
-    </author><guid>http://localhost:1313/tags/installation/</guid>
-    <description><![CDATA[]]></description>
-</item></channel>
+        <description>Tags - Tag - Panlong Wu</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="http://localhost:1313/tags/" rel="self" type="application/rss+xml" /></channel>
 </rss>

@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>All Posts - Welcome to my blogs</title>
+        <title>All Posts - Panlong Wu</title>
         <link>http://localhost:1313/posts/</link>
-        <description>All Posts | Welcome to my blogs</description>
+        <description>All Posts | Panlong Wu</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 17 Nov 2022 10:41:49 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/posts/" rel="self" type="application/rss+xml" /><item>
     <title>First_post</title>
     <link>http://localhost:1313/posts/first_post/</link>
@@ -11,8 +11,9 @@
     </author><guid>http://localhost:1313/posts/first_post/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/2022-11-17-16-56-34-image.png" referrerpolicy="no-referrer">
-            </div><p>This is the first post test
-<img class="tw-inline" loading="lazy" src='/images/blog_1/2022-11-17-16-56-34-image.png'    height="445" width="1138"></p>
-<p><img class="tw-inline" loading="lazy" src='test.png'     ></p>]]></description>
+            </div><p>This is the first post test</p>
+<!-- ![](/images/blog_1/2022-11-17-16-56-34-image.png)
+
+![](test.png) -->]]></description>
 </item></channel>
 </rss>
